@@ -1,3 +1,3 @@
-remote file2
-i was very behind 
-checking communications between git repo and cli
+echo"remote file2"
+echo"i was very behind "
+echo"checking communications between git repo and cli"
