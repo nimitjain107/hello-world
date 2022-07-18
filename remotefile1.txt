@@ -1,4 +1,4 @@
 echo "remote file2"
 echo "i was very behind "
 echo "checking communications between git repo and cli"
-echo $date "is the time right now"
+echo "$date is the time right now"
