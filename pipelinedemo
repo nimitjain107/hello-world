@@ -1,0 +1,25 @@
+pipeline { 
+    agent any 
+    stages { 
+        stage('Build') { 
+            steps { 
+               echo 'This is a minimal pipeline.' 
+            }
+        }
+        stage('Test') { 
+            steps { 
+               echo 'testing happening.' 
+            }
+        }
+        stage('Package') { 
+            steps { 
+               echo 'packaging is done' 
+            }
+        }
+        stage('Deploy') { 
+            steps { 
+               echo 'Deploying here' 
+            }
+        }
+    }
+}
